@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
     
     x <<- y
     
-    inv <<- NULL
+    i <<- NULL
     
   }
   
@@ -62,13 +62,5 @@ cacheSolve <- function(x, ...) {
   i
   
 }
-
-## test these functions
-
-t <- matrix(rnorm(1:25), 5, 5)
-
-t1 <- makeCacheMatrix(t)
-
-cacheSolve(t1)
 
 
