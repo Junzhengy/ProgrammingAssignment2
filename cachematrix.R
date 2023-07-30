@@ -6,7 +6,11 @@
 
 ## This function creates a special "matrix" object that can cache its inverse.
 
-
+## following four steps
+## set the value
+## get the value
+## set the inverse
+## get the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   
